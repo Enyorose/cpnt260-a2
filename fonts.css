@@ -1,6 +1,19 @@
-h1 h2 {
+h1, h2, span, a {
   font-family: 'Amarante', cursive;
 }
 p {
   font-family: 'Roboto', sans-serif;
 }
+nav a, a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  display: inline-flex;
+  color: black;
+}
+nav {
+  background-color: #373332;
+}
+body {
+  background-color: #8A817E;
