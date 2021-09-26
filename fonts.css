@@ -12,11 +12,12 @@ ul li {
   display: inline-flex;
   color: black;
 }
-nav {
+nav, footer {
   background-color: #373332;
 }
 body {
-  background-color: #8A817E;
+  background-color: #8A817E;  
+ margin: 0;
 }
 a button {
   background-color: #8A817E;
