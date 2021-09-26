@@ -1,8 +1,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 5px 10px;
-  margin: -10px -10px;
+  padding-right: 10px;
 }
 span {
   color: #94a0aa;
@@ -15,7 +14,7 @@ a img {
   padding: 5px 0px 10px 15px;
 
 }
-a, ul li, footer {
+nav a, ul li, footer {
   display: flex;
   align-items: center;
 }
@@ -24,7 +23,7 @@ ul li {
   padding: 5px 5px;
   border-radius: 5px;
   margin: 7px;
-  box-shadow: 4px 4px 4px 1px rgba(0,0,0,0.3)
+  /*box-shadow: 4px 4px 4px 1px rgba(0,0,0,0.3)*/
 }
 article {
   display: grid;
@@ -52,11 +51,16 @@ section {
 a button {
   border-radius: 20px;
   padding: 8px;
-  transition: 0.3;
-}
+ }
 a button:hover {
   box-shadow: 4px 4px 4px 1px rgba(0,0,0,0.3);
   font-size: 14px;
+  transition: 0.5s;
+}
+ul li:hover{
+  box-shadow: 4px 4px 4px 1px rgba(0,0,0,0.3);
+  font-size: 18px;
+  transition: 0.3s; 
 }
 .text-box {
   display: flex;
@@ -69,10 +73,7 @@ i {
 }
 footer img{
   max-width: 50px;
-  padding: 5px 10px;
-  margin: -15px -15px;  
 }
 footer {
-  padding: 5px 10px;
-  margin: -10px -10px;
+  margin-top: auto;
 }
